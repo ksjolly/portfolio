@@ -10,19 +10,22 @@ html {
 
 
 h1 {
-	color: black;
-	font: 3.2rem/1.10 clarendonLight, Georgia;
-  /*
-	letter-spacing: 0;
-  margin: 1em 0;
-  */
+  	font: 3.2rem/1.10 clarendonLight, Georgia;
+  	letter-spacing: 0;
+    margin: 1em 0;
+
 }
 
 h2 {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size:2.4rem;
+  /*
 	color: black;
 	font: 2.4rem/1.10 clarendonLight, Georgia;
 	letter-spacing: 0;
   margin: 1em 0;
+  */
 }
 
 
