@@ -28,6 +28,10 @@ h2 {
   */
 }
 
+ul li:nth-child(even) {
+  letter-spacing:1px;
+}
+
 
 h3 {
 	font-family: 'Gotham Rounded SSm A';
@@ -71,19 +75,16 @@ h3 {
 }
 
 
-p {
-  /*
-	margin: 0;
-	font-weight: 300;
-	line-height: 1.6rem;
-  */
+p:last-child::first-letter {
+    font-size: 2.5em;
 }
 .title
 {
   color: black;
 	font: 2.4rem/1.10 clarendonLight, Georgia;
 	letter-spacing: 0;
-  margin: 1em 0;
+  padding-left:2px;
+
 
 }
 
@@ -94,10 +95,18 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+  color: green;
+  font-size: 6em;
 }
 
+a {
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+}
 .menu {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 .menu > li {
