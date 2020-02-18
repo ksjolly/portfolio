@@ -9,6 +9,47 @@ html {
 }
 
 
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: SteelBlue;
+}
+input[type=password]:focus {
+  background-color: seagreen;
+  outline: none;
+}
+
+input {
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+
+.form-submit-button {
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+  text-shadow:none;
+}
+
 h1 {
   	font: 3.2rem/1.10 clarendonLight, Georgia;
   	letter-spacing: 0;
